@@ -133,7 +133,7 @@ CREATE TABLE `usuario` (
 INSERT INTO `usuario` (`id`, `Nombre`, `Apellido`, `usuario`, `password`) VALUES
 (1, 'Admin', 'Admin', 'admin', '202cb962ac59075b964b07152d234b70'),
 (2, 'Alessandro', 'Mata', 'Alessandro', '202cb962ac59075b964b07152d234b70'),
-
+--contraseña es 123
 
 --
 -- Índices para tablas volcadas
