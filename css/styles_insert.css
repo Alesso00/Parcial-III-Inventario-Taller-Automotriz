@@ -1,0 +1,112 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    background: #d3cce3; /* Fallback para navegadores antiguos */
+    background: -webkit-linear-gradient(to right, #e9e4f0, #d3cce3); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e9e4f0, #d3cce3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  /* Contenedor del formulario */
+  
+  .form-container {
+    max-width: 800px; /* Aumenta el ancho máximo del contenedor */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    
+  }
+  
+  /* Grupo de elementos del formulario */
+  
+  .form-container .input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .form-container .input-group label {
+    flex: 0 0 150px; /* Ancho fijo de las etiquetas */
+    font-weight: bold;
+  }
+  
+  .form-container .input-group input[type="text"],
+  .form-container .input-group input[type="number"],
+  .form-container .input-group input[type="date"] {
+    flex: 1;
+    padding: 6px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  /* Grupo de botones */
+  
+  .button-group {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .button-group input[type="submit"],
+  .button-group input[type="button"] {
+    padding: 6px 12px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  /* Contenedor de la tabla */
+  
+  .table-container {
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  /* Estilos de la tabla */
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th,
+  table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+  }
+  
+  table td:last-child {
+    white-space: nowrap;
+  }
+  
+  /* Acciones de la tabla */
+  
+  table td.actions {
+    text-align: center;
+  }
+  
+  table td.actions button {
+    padding: 6px 12px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  table td.actions button:last-child {
+    background-color: #f44336;
+    margin-left: 10px;
+  }
+  

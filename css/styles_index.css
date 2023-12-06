@@ -1,0 +1,52 @@
+/* Estilos generales */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f8f9fa;
+}
+
+h1, h2, h4 {
+    color: #343a40;
+}
+
+/* Barra de navegación */
+
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: #fff;
+}
+
+/* Formulario */
+
+.form-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.login-container {
+    margin-top: 20px;
+}
+
+/* Carrusel */
+
+.carousel-inner img {
+    border-radius: 8px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #343a40;
+    color: #fff;
+}
+
+/* Añade más estilos según sea necesario */

@@ -1,0 +1,72 @@
+.login-container {
+    /* Estilo del contenedor del formulario de inicio de sesión */
+    width: 500px; /* Ancho del contenedor */
+    margin: 0 auto; /* Centrar horizontalmente el contenedor */
+    padding: 20px; /* Espaciado interno del contenedor */
+    border: 1px solid #ccc; /* Borde del contenedor */
+    border-radius: 17px; /* Esquinas redondeadas del contenedor */
+    background-color: #d7b7f3; /* Color de fondo del contenedor */
+    position: absolute; /* Posición absoluta */
+    top: 40%; /* Centrar verticalmente */
+    left: 50%; /* Centrar horizontalmente */
+    transform: translate(-50%, -50%); /* Centrar en el centro de la pantalla */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Sombra alrededor del contenedor */
+    display: flex; /* Mostrar los elementos en una línea */
+  }
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .login-container img {
+    /* Estilo de la imagen */
+    width: 200px;
+    height: 180px;
+    margin-right: 30px; /* Espacio derecho entre la imagen y el contenido */
+  }
+  
+  .login-container .login-form {
+    /* Estilo del contenido del formulario */
+    display: flex; /* Mostrar los elementos en una línea */
+    flex-direction: column; /* Apilar los elementos verticalmente */
+  }
+  
+  h2 {
+    /* Estilo para los encabezados h2 */
+    text-align: center; /* Centrar el texto */
+    margin-bottom: 20px; /* Espacio inferior del encabezado */
+    color: #333; /* Color del texto */
+  }
+  
+  form {
+    /* Estilo para el formulario */
+    display: flex; /* Mostrar los elementos en una línea */
+    flex-direction: column; /* Apilar los elementos verticalmente */
+  }
+  
+  label {
+    /* Estilo para las etiquetas de los campos */
+    margin-bottom: 10px; /* Espacio inferior entre las etiquetas */
+    color: #333; /* Color del texto de las etiquetas */
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    /* Estilo para los campos de texto y contraseña */
+    padding: 10px; /* Espaciado interno de los campos */
+    border: 1px solid #ccc; /* Borde de los campos */
+    border-radius: 4px; /* Esquinas redondeadas de los campos */
+    margin-bottom: 15px; /* Espacio inferior entre los campos */
+  }
+  
+  
+  
+  body {
+    background: #d3cce3; /* Fallback para navegadores antiguos */
+    background: -webkit-linear-gradient(to right, #e9e4f0, #d3cce3); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e9e4f0, #d3cce3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
